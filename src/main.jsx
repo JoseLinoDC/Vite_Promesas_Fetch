@@ -10,8 +10,16 @@ import MyFetchAPIs from './Function/MyFetchAPIs.jsx'
 import MyFetchPost from './Function/MyFetchPost.jsx'
 import MyFetchPut from './Function/MyFetchPut.jsx'
 import MyFetchBlob from './Function/MyFetchBlob.jsx'
+import MyDataTypes from './methods/MyDataTypes.jsx'
+import MyObjects from './methods/MyObjects.jsx'
+import { Contador } from './components/Contador.jsx'
+import { ContadorHook } from './components/ContadorHook.jsx'
+import { Usuarios } from './components/Usuarios.jsx'
+import { Login } from './components/Login.jsx'
+import { Formularios } from './components/Formularios.jsx'
 
 createRoot(document.getElementById('root')).render(
+    
 
     /* <App /> */
     /* <MyFunctions /> */
@@ -21,6 +29,16 @@ createRoot(document.getElementById('root')).render(
     // < MyFetchAPIs /> 
     // <MyFetchPost/>
     //<MyFetchPut />
+    //  < MyFetchBlob />
+    // < MyDataTypes />
+    // <MyObjects />
+    // <Contador />
 
-    < MyFetchBlob />
+    // <ContadorHook />
+
+    // <Login/>
+      <Usuarios/>
+    
+    //  <Formularios />
+
 )

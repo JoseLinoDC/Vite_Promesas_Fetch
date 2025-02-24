@@ -1,40 +1,8 @@
-# **Diaz Canales Jose Lino**
-**DAM 18:00-19:00**
+# React + Vite
 
----
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## **Actividad 1: 16/feb/2025**
+Currently, two official plugins are available:
 
-**Explicación paso a paso del desarrollo y funcionamiento de los siguientes temas:**
-
-- **A)** Promesas básicas.
-- **B)** Promesas en Cadena.
-- **C)** Promesas `All`.
-- **D)** Promesas `Race`.
-- **E)** Orígenes de `Fetch` y `Fetch API`.
-- **F)** API `GET`.
-- **G)** API `POST`.
-- **H)** `Fetch` de `Blobs`.
-- **I)** `http-server`.
-
----
-
-## **Actividad 2: 23/feb/2025**
-
-**Temas abordados:**
-
-- **A)** Práctica con **TypeScript**.
-- **B)** Preparar proyecto con componentes **TypeScript**.
-- **C)** Objetos literales e interfaces.
-- **D)** Funciones de retorno y argumentos.
-- **E)** Hook - `useState`.
-- **F)** Custom Hook - `useCounter`.
-- **G)** Componente Hook - `useReducer`.
-- **H)** Peticiones HTTP API `GET` con **Axios** y su despliegue en pantalla.
-- **I)** Crear paginación de una tabla.
-- **J)** Custom Hook para `useUsuarios`.
-- **K)** Formularios.
-- **L)** Utilizando custom Hook en formularios.
-
----
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
